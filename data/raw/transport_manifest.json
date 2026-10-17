@@ -1,0 +1,30 @@
+{
+  "name": "Bus Breakdown and Delays",
+  "dataset_id": "ez4e-fazm",
+  "full_source_rows": 1305119,
+  "source_columns": 21,
+  "extracted_rows": 262875,
+  "extracted_columns": 12,
+  "start": "2022-01-01",
+  "end_exclusive": "2025-01-01",
+  "retrieved_utc": "2026-10-17T12:09:25.549130+00:00",
+  "rows_updated_at": 1792233041,
+  "where": "occurred_on >= '2022-01-01T00:00:00' AND occurred_on < '2025-01-01T00:00:00'",
+  "fields": [
+    "busbreakdown_id",
+    "occurred_on",
+    "created_on",
+    "last_updated_on",
+    "boro",
+    "reason",
+    "run_type",
+    "how_long_delayed",
+    "number_of_students_on_the_bus",
+    "breakdown_or_running_late",
+    "school_year",
+    "route_number"
+  ],
+  "sha256": "bb85ce34b3084f13b70d34e38f09de05f9683388f43154d6eab59343e751d33d",
+  "api": "https://data.cityofnewyork.us/resource/ez4e-fazm.json",
+  "download": "https://data.cityofnewyork.us/api/views/ez4e-fazm/rows.csv?accessType=DOWNLOAD"
+}

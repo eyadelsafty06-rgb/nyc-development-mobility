@@ -1,0 +1,1898 @@
+{
+  "id": "ez4e-fazm",
+  "name": "Bus Breakdown and Delays",
+  "assetType": "dataset",
+  "attribution": "Department of Education (DOE)",
+  "averageRating": 0,
+  "category": "Transportation",
+  "createdAt": 1443632903,
+  "description": "The Bus Breakdown and Delay system collects information from school bus vendors operating out in the field in real time. Bus staff that encounter delays during the route are instructed to radio the dispatcher at the bus vendor\u2019s central office. The bus vendor staff are then instructed to log into the Bus Breakdown and Delay system to record the event and notify OPT. OPT customer service agents use this system to inform parents who call with questions regarding bus service. The Bus Breakdown and Delay system is publicly accessible and contains real time updates. All information in the system is entered by school bus vendor staff.",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 18966,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "indexUpdatedAt": 1561891353,
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 20651729,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1462316396,
+  "publicationGroup": 4528409,
+  "publicationStage": "published",
+  "rowClass": "",
+  "rowsUpdatedAt": 1792233041,
+  "rowsUpdatedBy": "5fuc-pqz2",
+  "tableId": 10515991,
+  "totalTimesRated": 0,
+  "viewCount": 54108,
+  "viewLastModified": 1732662992,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1759762404,
+      "reviewedAutomatically": false,
+      "state": "approved",
+      "submissionId": 7148032,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1759762390,
+      "targetAudience": "public",
+      "workflowId": 2285,
+      "reviewer": {
+        "id": "8u8s-8cxv",
+        "displayName": "Zachary Feder (NYC Open Data)"
+      },
+      "submissionDetails": {
+        "permissionType": "read"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1759762404,
+        "failureCount": 0,
+        "startedAt": 1759762404,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "8u8s-8cxv",
+        "displayName": "Zachary Feder (NYC Open Data)"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 253379568,
+      "name": "School_Year",
+      "dataTypeName": "text",
+      "description": "Indicates the school year the record refers to. The DOE school year starts in September every year. ",
+      "fieldName": "school_year",
+      "position": 1,
+      "renderTypeName": "text",
+      "tableColumnId": 31729343,
+      "width": 108,
+      "cachedContents": {
+        "largest": "2026-2027",
+        "non_null": "1305118",
+        "null": "1",
+        "top": [
+          {
+            "item": "2018-2019",
+            "count": "112881"
+          },
+          {
+            "item": "2022-2023",
+            "count": "99421"
+          },
+          {
+            "item": "2025-2026",
+            "count": "89848"
+          },
+          {
+            "item": "2017-2018",
+            "count": "89767"
+          },
+          {
+            "item": "2023-2024",
+            "count": "89046"
+          },
+          {
+            "item": "2016-2017",
+            "count": "83141"
+          },
+          {
+            "item": "2024-2025",
+            "count": "75563"
+          },
+          {
+            "item": "2021-2022",
+            "count": "73507"
+          },
+          {
+            "item": "2019-2020",
+            "count": "71670"
+          },
+          {
+            "item": "2014-2015",
+            "count": "68579"
+          },
+          {
+            "item": "2015-2016",
+            "count": "67090"
+          },
+          {
+            "item": "2010-2011",
+            "count": "56224"
+          },
+          {
+            "item": "2013-2014",
+            "count": "56074"
+          },
+          {
+            "item": "2011-2012",
+            "count": "54941"
+          },
+          {
+            "item": "2012-2013",
+            "count": "44015"
+          },
+          {
+            "item": "2009-2010",
+            "count": "33504"
+          },
+          {
+            "item": "2008-2009",
+            "count": "32513"
+          },
+          {
+            "item": "2007-2008",
+            "count": "23776"
+          },
+          {
+            "item": "2020-2021",
+            "count": "20439"
+          },
+          {
+            "item": "2006-2007",
+            "count": "14313"
+          }
+        ],
+        "smallest": "1899-1900",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379569,
+      "name": "Busbreakdown_ID",
+      "dataTypeName": "number",
+      "description": "Unique ID of each record.",
+      "fieldName": "busbreakdown_id",
+      "position": 2,
+      "renderTypeName": "number",
+      "tableColumnId": 31729344,
+      "width": 120,
+      "cachedContents": {
+        "largest": "2111406",
+        "non_null": "1305119",
+        "average": "1388738.713577268",
+        "null": "0",
+        "top": [
+          {
+            "item": "780852",
+            "count": "1"
+          },
+          {
+            "item": "780853",
+            "count": "1"
+          },
+          {
+            "item": "780854",
+            "count": "1"
+          },
+          {
+            "item": "780855",
+            "count": "1"
+          },
+          {
+            "item": "780856",
+            "count": "1"
+          },
+          {
+            "item": "780857",
+            "count": "1"
+          },
+          {
+            "item": "780858",
+            "count": "1"
+          },
+          {
+            "item": "780859",
+            "count": "1"
+          },
+          {
+            "item": "780860",
+            "count": "1"
+          },
+          {
+            "item": "780861",
+            "count": "1"
+          },
+          {
+            "item": "780862",
+            "count": "1"
+          },
+          {
+            "item": "780863",
+            "count": "1"
+          },
+          {
+            "item": "780864",
+            "count": "1"
+          },
+          {
+            "item": "780865",
+            "count": "1"
+          },
+          {
+            "item": "780866",
+            "count": "1"
+          },
+          {
+            "item": "780867",
+            "count": "1"
+          },
+          {
+            "item": "780868",
+            "count": "1"
+          },
+          {
+            "item": "780871",
+            "count": "1"
+          },
+          {
+            "item": "780872",
+            "count": "1"
+          },
+          {
+            "item": "780851",
+            "count": "1"
+          }
+        ],
+        "smallest": "780851",
+        "not_null": "378449",
+        "count": "1305119",
+        "sum": "478863494477",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "true",
+        "align": "right"
+      }
+    },
+    {
+      "id": 253379570,
+      "name": "Run_Type",
+      "dataTypeName": "text",
+      "description": "Designates whether a breakdown or delay occurred on a specific category of busing service. The categories are:\n\u2022\tGeneral Ed AM Run - stop-to-school service in the morning with pick-ups at bus stops and drops-offs at school(s). \n\u2022\tGeneral Ed PM Run - stop-to-school service in the afternoon with pick-ups at school(s) and drop-offs at bus stops.\n\u2022\tGeneral Ed Field Trip - refers to any mid-day bus trip that does not involve at least one student with an IEP for busing. For OPT, the term \"field trip\" is a contract term referring to any mid-day trip, including work programs as well as traditional field trips to the museum.\n\u2022\tSpecial Ed AM Run \u2013 curb-to-curb service in the morning with pick-ups at residences and drop-offs at school(s).\n\u2022\tSpecial Ed PM Run - curb-to-curb service in the afternoon with pick-ups at school(s) and drop-offs at residences.\n\u2022\tSpecial Ed Field Trip - refers to any mid-day bus trip that includes at least one student with an IEP for busing. For OPT, the term \"field trip\" is a contract term referring to any mid-day trip, including work programs as well as traditional field trips to the museum.\n\u2022\tPre-K/EI - Pre-Kindergarten or Early Intervention program curb-to-curb run. Pre-K/EI service has different service levels and contract terms from OPT's school aged service. OPT provides curb-to-curb busing to Pre-K students with an Individualized Education Program (IEP) for busing and selected children in the Dept. of Health and Mental Hygiene\u2019s Early Intervention program.\n\u2022\tProject Read PM Run \u2013 curb-to-curb busing service for special education students enrolled in late-day programs. As a rule, bus service is only available to schools or sites that dismiss students before 4:30 PM. There are a small number of approved programs that dismiss students after 4:30 PM.\n",
+      "fieldName": "run_type",
+      "position": 3,
+      "renderTypeName": "text",
+      "tableColumnId": 31729345,
+      "width": 196,
+      "cachedContents": {
+        "largest": "Special Ed PM Run",
+        "non_null": "1305087",
+        "null": "32",
+        "top": [
+          {
+            "item": "Special Ed AM Run",
+            "count": "793982"
+          },
+          {
+            "item": "Special Ed PM Run",
+            "count": "172261"
+          },
+          {
+            "item": "General Ed AM Run",
+            "count": "157179"
+          },
+          {
+            "item": "Pre-K/EI",
+            "count": "119410"
+          },
+          {
+            "item": "General Ed PM Run",
+            "count": "45993"
+          },
+          {
+            "item": "General Ed Field Trip",
+            "count": "7427"
+          },
+          {
+            "item": "Special Ed Field Trip",
+            "count": "5758"
+          },
+          {
+            "item": "Project Read Field Trip",
+            "count": "1161"
+          },
+          {
+            "item": "Project Read AM Run",
+            "count": "1031"
+          },
+          {
+            "item": "Project Read PM Run",
+            "count": "885"
+          }
+        ],
+        "smallest": "General Ed AM Run",
+        "not_null": "378446",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379571,
+      "name": "Bus_No",
+      "dataTypeName": "text",
+      "description": "The bus number is assigned by the bus vendor. The numbers are not unique identifiers and may be repeated across vendors. For example, many bus vendors may have a Bus #1. Each bus vendor may have their own numbering convention.",
+      "fieldName": "bus_no",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 31729353,
+      "width": 137,
+      "cachedContents": {
+        "largest": "ZFOO77",
+        "non_null": "1305062",
+        "null": "57",
+        "top": [
+          {
+            "item": "0000",
+            "count": "1964"
+          },
+          {
+            "item": "/",
+            "count": "1589"
+          },
+          {
+            "item": "1801",
+            "count": "1443"
+          },
+          {
+            "item": "1803",
+            "count": "1287"
+          },
+          {
+            "item": "1910",
+            "count": "1274"
+          },
+          {
+            "item": "9302",
+            "count": "1134"
+          },
+          {
+            "item": "2021",
+            "count": "1121"
+          },
+          {
+            "item": "1716",
+            "count": "1084"
+          },
+          {
+            "item": "1804",
+            "count": "1063"
+          },
+          {
+            "item": "357",
+            "count": "1061"
+          },
+          {
+            "item": "1316",
+            "count": "1053"
+          },
+          {
+            "item": "126",
+            "count": "1050"
+          },
+          {
+            "item": "1107",
+            "count": "1026"
+          },
+          {
+            "item": "1407",
+            "count": "1022"
+          },
+          {
+            "item": "338",
+            "count": "1021"
+          },
+          {
+            "item": "1318",
+            "count": "995"
+          },
+          {
+            "item": "120",
+            "count": "983"
+          },
+          {
+            "item": "1710",
+            "count": "979"
+          },
+          {
+            "item": "1911",
+            "count": "977"
+          },
+          {
+            "item": "1631",
+            "count": "975"
+          }
+        ],
+        "smallest": "-",
+        "not_null": "378439",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379572,
+      "name": "Route_Number",
+      "dataTypeName": "text",
+      "description": "This refers to the unique identifier four (1 alpha + 3 numeric) character route numbers indicate curb-to-curb service while five (1 alpha + 4 numeric) indicates stop-to-school service. Pre-K/EI routes may have any value in the Route Number field; bus vendors are not required to follow any naming convention for those routes.",
+      "fieldName": "route_number",
+      "position": 5,
+      "renderTypeName": "text",
+      "tableColumnId": 31729354,
+      "width": 141,
+      "cachedContents": {
+        "largest": "ZJ3",
+        "non_null": "1304985",
+        "null": "134",
+        "top": [
+          {
+            "item": "1",
+            "count": "7663"
+          },
+          {
+            "item": "2",
+            "count": "6959"
+          },
+          {
+            "item": "3",
+            "count": "4931"
+          },
+          {
+            "item": "5",
+            "count": "4202"
+          },
+          {
+            "item": "4",
+            "count": "3152"
+          },
+          {
+            "item": "6",
+            "count": "2218"
+          },
+          {
+            "item": "7",
+            "count": "1790"
+          },
+          {
+            "item": "8",
+            "count": "1556"
+          },
+          {
+            "item": "9",
+            "count": "787"
+          },
+          {
+            "item": "K080",
+            "count": "755"
+          },
+          {
+            "item": "K001",
+            "count": "740"
+          },
+          {
+            "item": "K063",
+            "count": "727"
+          },
+          {
+            "item": "Q032",
+            "count": "725"
+          },
+          {
+            "item": "K005",
+            "count": "712"
+          },
+          {
+            "item": "K013",
+            "count": "697"
+          },
+          {
+            "item": "K224",
+            "count": "694"
+          },
+          {
+            "item": "K011",
+            "count": "693"
+          },
+          {
+            "item": "K017",
+            "count": "690"
+          },
+          {
+            "item": "K016",
+            "count": "684"
+          },
+          {
+            "item": "M604",
+            "count": "679"
+          }
+        ],
+        "smallest": "#!",
+        "not_null": "378442",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379573,
+      "name": "Reason",
+      "dataTypeName": "text",
+      "description": "Reason for delay as entered by staff employed by reporting bus vendor. User chooses from the following categories:\n\u2022\tAccident - to be selected if any accident that delays the bus is recorded. The bus can be delayed by an accident that the bus itself is not actually involved in. \n\u2022\tDelayed by School - to be selected by reporting bus vendors when schools have delays ushering students to or from the bus.\n\u2022\tFlat Tire - to be selected by reporting bus vendors for any flat tire that requires the bus to stop and wait for assistance\n\u2022\tHeavy Traffic - to be selected by the reporting bus vendor when heavy traffic conditions delay the scheduled service.\n\u2022\tMechanical Problem -  to be selected by reporting bus vendors for any type of mechanical problem other than 'Flat Tire' or 'Won't Start'\n\u2022\tOther - to be selected by the reporting bus vendor when the delay cannot be classified within the available categories\n\u2022\tProblem Run - Some routes may be late to a destination because the bus vendor believes the route has too many stops or is too long. There is a process for bus vendors to submit these Problem Runs to OPT staff for research and resolution. While that work is being done, bus vendors can record routes as being delayed by selecting the Problem Run category.\n\u2022\tWeather Conditions - to be selected by the reporting bus vendor when weather conditions delay the scheduled service.\n\u2022\tWon't Start - to be selected by the reporting bus vendor when a bus that has already left the bus yard won't start. There is usually a delay while a replacement bus is dispatched to the out-of-service bus's location\n",
+      "fieldName": "reason",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 31729355,
+      "width": 168,
+      "cachedContents": {
+        "largest": "Won`t Start",
+        "non_null": "1160815",
+        "null": "144304",
+        "top": [
+          {
+            "item": "Heavy Traffic",
+            "count": "689243"
+          },
+          {
+            "item": "Other",
+            "count": "193935"
+          },
+          {
+            "item": "Mechanical Problem",
+            "count": "99957"
+          },
+          {
+            "item": "Problem Run",
+            "count": "42487"
+          },
+          {
+            "item": "Won`t Start",
+            "count": "38120"
+          },
+          {
+            "item": "Weather Conditions",
+            "count": "35663"
+          },
+          {
+            "item": "Flat Tire",
+            "count": "22673"
+          },
+          {
+            "item": "Late return from Field Trip",
+            "count": "17399"
+          },
+          {
+            "item": "Delayed by School",
+            "count": "11376"
+          },
+          {
+            "item": "Accident",
+            "count": "9962"
+          }
+        ],
+        "smallest": "Accident",
+        "not_null": "378447",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379574,
+      "name": "Schools_Serviced",
+      "dataTypeName": "text",
+      "description": "OPT Codes of all transportation sites on the route. If there is more than one site, each site code will be separated by a comma. If the incident occurred on a bus used for Pre-K/EI service, the code will have one alpha, three numeric and sometimes one additional alpha character. If the incident occurred on a bus used for school-aged service, the code will have five text formatted numerals and may include a leading zero.",
+      "fieldName": "schools_serviced",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 31729356,
+      "width": 174,
+      "cachedContents": {
+        "largest": "Z155",
+        "non_null": "1301494",
+        "null": "3625",
+        "top": [
+          {
+            "item": "12084",
+            "count": "6182"
+          },
+          {
+            "item": "02930",
+            "count": "5456"
+          },
+          {
+            "item": "75907",
+            "count": "4428"
+          },
+          {
+            "item": "02909",
+            "count": "4367"
+          },
+          {
+            "item": "C814",
+            "count": "4319"
+          },
+          {
+            "item": "12486",
+            "count": "4257"
+          },
+          {
+            "item": "02699",
+            "count": "4039"
+          },
+          {
+            "item": "C457",
+            "count": "3746"
+          },
+          {
+            "item": "C195",
+            "count": "3701"
+          },
+          {
+            "item": "75627",
+            "count": "3494"
+          },
+          {
+            "item": "C073",
+            "count": "3159"
+          },
+          {
+            "item": "22286",
+            "count": "3116"
+          },
+          {
+            "item": "26177",
+            "count": "3091"
+          },
+          {
+            "item": "26187",
+            "count": "3005"
+          },
+          {
+            "item": "02986",
+            "count": "2851"
+          },
+          {
+            "item": "75420",
+            "count": "2834"
+          },
+          {
+            "item": "11465",
+            "count": "2817"
+          },
+          {
+            "item": "02169",
+            "count": "2790"
+          },
+          {
+            "item": "C329",
+            "count": "2738"
+          },
+          {
+            "item": "24721",
+            "count": "2585"
+          }
+        ],
+        "smallest": "`",
+        "not_null": "378442",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379575,
+      "name": "Occurred_On",
+      "dataTypeName": "calendar_date",
+      "description": "Time/date the incident occurred, as entered by the staff employed by the reporting bus vendor",
+      "fieldName": "occurred_on",
+      "position": 8,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 31729360,
+      "width": 156,
+      "cachedContents": {
+        "largest": "2027-02-26T14:00:00.000",
+        "non_null": "1305118",
+        "null": "1",
+        "top": [
+          {
+            "item": "2010-05-03T07:30:00.000",
+            "count": "350"
+          },
+          {
+            "item": "2010-09-13T06:00:00.000",
+            "count": "260"
+          },
+          {
+            "item": "2010-09-08T06:00:00.000",
+            "count": "221"
+          },
+          {
+            "item": "2011-01-12T06:57:00.000",
+            "count": "173"
+          },
+          {
+            "item": "2010-02-11T06:30:00.000",
+            "count": "173"
+          },
+          {
+            "item": "2011-01-21T06:30:00.000",
+            "count": "127"
+          },
+          {
+            "item": "2011-01-03T06:30:00.000",
+            "count": "125"
+          },
+          {
+            "item": "2011-01-12T06:30:00.000",
+            "count": "123"
+          },
+          {
+            "item": "2011-01-18T06:30:00.000",
+            "count": "120"
+          },
+          {
+            "item": "2011-01-12T07:00:00.000",
+            "count": "115"
+          },
+          {
+            "item": "2011-01-21T06:57:00.000",
+            "count": "109"
+          },
+          {
+            "item": "2010-09-15T06:00:00.000",
+            "count": "107"
+          },
+          {
+            "item": "2011-02-02T06:45:00.000",
+            "count": "102"
+          },
+          {
+            "item": "2011-01-12T06:00:00.000",
+            "count": "100"
+          },
+          {
+            "item": "2009-12-21T08:00:00.000",
+            "count": "99"
+          },
+          {
+            "item": "2010-10-01T06:30:00.000",
+            "count": "92"
+          },
+          {
+            "item": "2011-02-02T07:30:00.000",
+            "count": "89"
+          },
+          {
+            "item": "2026-03-05T06:30:00.000",
+            "count": "84"
+          },
+          {
+            "item": "2010-11-05T06:30:00.000",
+            "count": "83"
+          },
+          {
+            "item": "2011-01-12T07:30:00.000",
+            "count": "81"
+          }
+        ],
+        "smallest": "1900-01-01T00:00:00.000",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "view": "date_time",
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379576,
+      "name": "Created_On",
+      "dataTypeName": "calendar_date",
+      "description": "Time/date the record was created in the OPT Breakdown and Delay system.",
+      "fieldName": "created_on",
+      "position": 9,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 31729364,
+      "width": 169,
+      "cachedContents": {
+        "largest": "2026-10-16T06:04:00.000",
+        "non_null": "1305118",
+        "null": "1",
+        "top": [
+          {
+            "item": "2010-09-15T06:00:00.000",
+            "count": "99"
+          },
+          {
+            "item": "2010-05-03T09:12:00.000",
+            "count": "74"
+          },
+          {
+            "item": "2017-10-31T06:48:00.000",
+            "count": "66"
+          },
+          {
+            "item": "2015-01-28T05:11:00.000",
+            "count": "58"
+          },
+          {
+            "item": "2014-09-05T08:03:00.000",
+            "count": "57"
+          },
+          {
+            "item": "2015-01-28T04:32:00.000",
+            "count": "54"
+          },
+          {
+            "item": "2010-09-16T06:00:00.000",
+            "count": "52"
+          },
+          {
+            "item": "2015-01-28T05:51:00.000",
+            "count": "50"
+          },
+          {
+            "item": "2000-01-28T00:00:00.000",
+            "count": "46"
+          },
+          {
+            "item": "2000-01-14T00:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2010-09-17T06:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2014-09-05T06:48:00.000",
+            "count": "44"
+          },
+          {
+            "item": "2011-09-08T08:00:00.000",
+            "count": "43"
+          },
+          {
+            "item": "2010-05-03T10:07:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2005-03-09T07:30:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2009-12-21T08:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2004-11-22T08:36:00.000",
+            "count": "38"
+          },
+          {
+            "item": "2014-09-04T07:04:00.000",
+            "count": "37"
+          },
+          {
+            "item": "2009-10-30T08:05:00.000",
+            "count": "36"
+          },
+          {
+            "item": "2011-01-12T08:00:00.000",
+            "count": "36"
+          }
+        ],
+        "smallest": "1979-10-04T00:00:00.000",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "view": "date_time",
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379577,
+      "name": "Boro",
+      "dataTypeName": "text",
+      "description": "Borough, county or state in which the delay occurred, as entered by the staff employed by the reporting bus vendor.",
+      "fieldName": "boro",
+      "position": 10,
+      "renderTypeName": "text",
+      "tableColumnId": 31729365,
+      "width": 131,
+      "cachedContents": {
+        "largest": "Westchester",
+        "non_null": "1281040",
+        "null": "24079",
+        "top": [
+          {
+            "item": "Brooklyn",
+            "count": "318360"
+          },
+          {
+            "item": "Bronx",
+            "count": "296669"
+          },
+          {
+            "item": "Manhattan",
+            "count": "257334"
+          },
+          {
+            "item": "Queens",
+            "count": "251869"
+          },
+          {
+            "item": "Staten Island",
+            "count": "62694"
+          },
+          {
+            "item": "Nassau County",
+            "count": "44157"
+          },
+          {
+            "item": "Westchester",
+            "count": "33138"
+          },
+          {
+            "item": "New Jersey",
+            "count": "6174"
+          },
+          {
+            "item": "Connecticut",
+            "count": "4445"
+          },
+          {
+            "item": "All Boroughs",
+            "count": "3416"
+          },
+          {
+            "item": "Rockland County",
+            "count": "2559"
+          },
+          {
+            "item": "Suffolk",
+            "count": "225"
+          }
+        ],
+        "smallest": "All Boroughs",
+        "not_null": "367283",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379578,
+      "name": "Bus_Company_Name",
+      "dataTypeName": "text",
+      "description": "Bus vendor name of the reporting bus vendor.",
+      "fieldName": "bus_company_name",
+      "position": 11,
+      "renderTypeName": "text",
+      "tableColumnId": 31729366,
+      "width": 292,
+      "cachedContents": {
+        "largest": "Y & M TRANSIT CORP (B2321)",
+        "non_null": "1301627",
+        "null": "3492",
+        "top": [
+          {
+            "item": "AMBOY BUS COMPANY, INC",
+            "count": "104119"
+          },
+          {
+            "item": "LEESEL TRANSPORTATION CORP (B2192)",
+            "count": "96408"
+          },
+          {
+            "item": "PRIDE TRANSPORTATION (SCH AGE)",
+            "count": "77009"
+          },
+          {
+            "item": "PIONEER TRANSPORTATION CORP",
+            "count": "68020"
+          },
+          {
+            "item": "BORO TRANSIT, INC.",
+            "count": "56656"
+          },
+          {
+            "item": "G.V.C., LTD.",
+            "count": "51450"
+          },
+          {
+            "item": "HOYT TRANSPORTATION CORP.",
+            "count": "50843"
+          },
+          {
+            "item": "LITTLE RICHIE BUS SERVICE",
+            "count": "42917"
+          },
+          {
+            "item": "ALLIED TRANSIT CORP.",
+            "count": "37195"
+          },
+          {
+            "item": "LOGAN BUS COMPANY INC.",
+            "count": "34666"
+          },
+          {
+            "item": "PIONEER TRANSPORTATION CO",
+            "count": "29109"
+          },
+          {
+            "item": "VAN TRANS LLC (B2192)",
+            "count": "28473"
+          },
+          {
+            "item": "L & M BUS CORP.",
+            "count": "28247"
+          },
+          {
+            "item": "EMPIRE STATE BUS CORP.",
+            "count": "26725"
+          },
+          {
+            "item": "NYC SCHOOL BUS UMBRELLA SERVICES",
+            "count": "24006"
+          },
+          {
+            "item": "RELIANT TRANSPORTATION, INC (B2321)",
+            "count": "23992"
+          },
+          {
+            "item": "SNT BUS INC",
+            "count": "22525"
+          },
+          {
+            "item": "EMPIRE CHARTER SERVICE INC",
+            "count": "21885"
+          },
+          {
+            "item": "RELIANT TRANS, INC. (B232",
+            "count": "19457"
+          },
+          {
+            "item": "L & M BUS CORP (A)",
+            "count": "18695"
+          }
+        ],
+        "smallest": "`",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379579,
+      "name": "How_Long_Delayed",
+      "dataTypeName": "text",
+      "description": "Length of delay as estimated by the staff employed by the reporting bus vendor. OPT does not systematically monitor the contents of this field in real time.",
+      "fieldName": "how_long_delayed",
+      "position": 12,
+      "renderTypeName": "text",
+      "tableColumnId": 31729367,
+      "width": 142,
+      "cachedContents": {
+        "largest": "was thirty",
+        "non_null": "1124864",
+        "null": "180255",
+        "top": [
+          {
+            "item": "16-30 Min",
+            "count": "218150"
+          },
+          {
+            "item": "31-45 Min",
+            "count": "180473"
+          },
+          {
+            "item": "46-60 Min",
+            "count": "101106"
+          },
+          {
+            "item": "61-90 Min",
+            "count": "100938"
+          },
+          {
+            "item": "0-15 Min",
+            "count": "76567"
+          },
+          {
+            "item": "20 min",
+            "count": "14747"
+          },
+          {
+            "item": "30 min",
+            "count": "13248"
+          },
+          {
+            "item": "30MINS",
+            "count": "12149"
+          },
+          {
+            "item": "30 MINS",
+            "count": "11515"
+          },
+          {
+            "item": "15 min",
+            "count": "10403"
+          },
+          {
+            "item": "20 mins",
+            "count": "10119"
+          },
+          {
+            "item": "20 MINS",
+            "count": "10018"
+          },
+          {
+            "item": "20 MIN",
+            "count": "9945"
+          },
+          {
+            "item": "30 mins",
+            "count": "9883"
+          },
+          {
+            "item": "30 MIN",
+            "count": "9847"
+          },
+          {
+            "item": "15 mins",
+            "count": "9654"
+          },
+          {
+            "item": "20",
+            "count": "8737"
+          },
+          {
+            "item": "20mins",
+            "count": "7036"
+          },
+          {
+            "item": "30 MINS.",
+            "count": "6867"
+          },
+          {
+            "item": "30 minutes",
+            "count": "6254"
+          }
+        ],
+        "smallest": "`",
+        "not_null": "334834",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379580,
+      "name": "Number_Of_Students_On_The_Bus",
+      "dataTypeName": "number",
+      "description": "Number of students on the bus at the time of the incident as estimated by the staff employed by the reporting bus vendor. OPT does not systematically monitor the contents of this field in real time.",
+      "fieldName": "number_of_students_on_the_bus",
+      "position": 13,
+      "renderTypeName": "number",
+      "tableColumnId": 31729368,
+      "width": 237,
+      "cachedContents": {
+        "largest": "36005",
+        "non_null": "1305048",
+        "average": "3.351506152503197",
+        "null": "71",
+        "top": [
+          {
+            "item": "0",
+            "count": "770208"
+          },
+          {
+            "item": "2",
+            "count": "74044"
+          },
+          {
+            "item": "1",
+            "count": "73844"
+          },
+          {
+            "item": "3",
+            "count": "67281"
+          },
+          {
+            "item": "4",
+            "count": "58075"
+          },
+          {
+            "item": "5",
+            "count": "53347"
+          },
+          {
+            "item": "6",
+            "count": "38687"
+          },
+          {
+            "item": "7",
+            "count": "29466"
+          },
+          {
+            "item": "8",
+            "count": "25324"
+          },
+          {
+            "item": "10",
+            "count": "22376"
+          },
+          {
+            "item": "9",
+            "count": "17935"
+          },
+          {
+            "item": "12",
+            "count": "13127"
+          },
+          {
+            "item": "11",
+            "count": "11546"
+          },
+          {
+            "item": "15",
+            "count": "8603"
+          },
+          {
+            "item": "13",
+            "count": "6986"
+          },
+          {
+            "item": "14",
+            "count": "6459"
+          },
+          {
+            "item": "20",
+            "count": "3534"
+          },
+          {
+            "item": "16",
+            "count": "3529"
+          },
+          {
+            "item": "17",
+            "count": "3113"
+          },
+          {
+            "item": "18",
+            "count": "2834"
+          }
+        ],
+        "smallest": "0",
+        "not_null": "378449",
+        "count": "1305119",
+        "sum": "1155663",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right"
+      }
+    },
+    {
+      "id": 253379581,
+      "name": "Has_Contractor_Notified_Schools",
+      "dataTypeName": "text",
+      "description": "Indicator status as reported by the staff employed by the reporting bus vendor. OPT does not systematically monitor the contents of this field in real time.",
+      "fieldName": "has_contractor_notified_schools",
+      "position": 14,
+      "renderTypeName": "text",
+      "tableColumnId": 31729369,
+      "width": 215,
+      "cachedContents": {
+        "largest": "Yes",
+        "non_null": "1305119",
+        "null": "0",
+        "top": [
+          {
+            "item": "Yes",
+            "count": "1072383"
+          },
+          {
+            "item": "No",
+            "count": "232736"
+          }
+        ],
+        "smallest": "No",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379582,
+      "name": "Has_Contractor_Notified_Parents",
+      "dataTypeName": "text",
+      "description": "Indicator status as reported by the staff employed by the reporting bus vendor. OPT does not systematically monitor the contents of this field in real time.",
+      "fieldName": "has_contractor_notified_parents",
+      "position": 15,
+      "renderTypeName": "text",
+      "tableColumnId": 31729371,
+      "width": 202,
+      "cachedContents": {
+        "largest": "Yes",
+        "non_null": "1305119",
+        "null": "0",
+        "top": [
+          {
+            "item": "Yes",
+            "count": "886831"
+          },
+          {
+            "item": "No",
+            "count": "418288"
+          }
+        ],
+        "smallest": "No",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379583,
+      "name": "Have_You_Alerted_OPT",
+      "dataTypeName": "text",
+      "description": "Indicator status as reported by the staff employed by the reporting bus vendor. OPT does not systematically monitor the contents of this field in real time.",
+      "fieldName": "have_you_alerted_opt",
+      "position": 16,
+      "renderTypeName": "text",
+      "tableColumnId": 31729372,
+      "width": 198,
+      "cachedContents": {
+        "largest": "Yes",
+        "non_null": "1305119",
+        "null": "0",
+        "top": [
+          {
+            "item": "No",
+            "count": "990368"
+          },
+          {
+            "item": "Yes",
+            "count": "314751"
+          }
+        ],
+        "smallest": "No",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379584,
+      "name": "Informed_On",
+      "dataTypeName": "calendar_date",
+      "description": "Date on which the school, parents or OPT was notified, as reported by the bus vendor.",
+      "fieldName": "informed_on",
+      "position": 17,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 31729374,
+      "width": 153,
+      "cachedContents": {
+        "largest": "2026-10-16T06:04:00.000",
+        "non_null": "1305118",
+        "null": "1",
+        "top": [
+          {
+            "item": "2010-09-15T06:00:00.000",
+            "count": "99"
+          },
+          {
+            "item": "2010-05-03T09:12:00.000",
+            "count": "74"
+          },
+          {
+            "item": "2017-10-31T06:48:00.000",
+            "count": "66"
+          },
+          {
+            "item": "2015-01-28T05:11:00.000",
+            "count": "58"
+          },
+          {
+            "item": "2014-09-05T08:03:00.000",
+            "count": "57"
+          },
+          {
+            "item": "2015-01-28T04:32:00.000",
+            "count": "54"
+          },
+          {
+            "item": "2010-09-16T06:00:00.000",
+            "count": "52"
+          },
+          {
+            "item": "2015-01-28T05:51:00.000",
+            "count": "50"
+          },
+          {
+            "item": "2000-01-28T00:00:00.000",
+            "count": "46"
+          },
+          {
+            "item": "2000-01-14T00:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2010-09-17T06:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2014-09-05T06:48:00.000",
+            "count": "44"
+          },
+          {
+            "item": "2011-09-08T08:00:00.000",
+            "count": "43"
+          },
+          {
+            "item": "2010-05-03T10:07:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2005-03-09T07:30:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2009-12-21T08:00:00.000",
+            "count": "41"
+          },
+          {
+            "item": "2004-11-22T08:36:00.000",
+            "count": "38"
+          },
+          {
+            "item": "2014-09-04T07:04:00.000",
+            "count": "37"
+          },
+          {
+            "item": "2009-10-30T08:05:00.000",
+            "count": "36"
+          },
+          {
+            "item": "2011-01-12T08:00:00.000",
+            "count": "36"
+          }
+        ],
+        "smallest": "1979-10-04T00:00:00.000",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "view": "date_time",
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379585,
+      "name": "Incident_Number",
+      "dataTypeName": "text",
+      "description": "Some reports of bus breakdowns or delays originate from calls to the OPT Customer Service line who records incidents. When this happens, the record will have the Incident reference number.",
+      "fieldName": "incident_number",
+      "position": 18,
+      "renderTypeName": "text",
+      "tableColumnId": 31729375,
+      "width": 189,
+      "cachedContents": {
+        "largest": "z",
+        "non_null": "13724",
+        "null": "1291395",
+        "top": [
+          {
+            "item": "NA",
+            "count": "1145"
+          },
+          {
+            "item": "X",
+            "count": "1043"
+          },
+          {
+            "item": "x",
+            "count": "118"
+          },
+          {
+            "item": "e",
+            "count": "65"
+          },
+          {
+            "item": "N/A",
+            "count": "64"
+          },
+          {
+            "item": "0000000",
+            "count": "41"
+          },
+          {
+            "item": "90558530",
+            "count": "33"
+          },
+          {
+            "item": "90566156",
+            "count": "30"
+          },
+          {
+            "item": "90561578",
+            "count": "26"
+          },
+          {
+            "item": "90552325",
+            "count": "24"
+          },
+          {
+            "item": "90276267",
+            "count": "24"
+          },
+          {
+            "item": "90553928",
+            "count": "21"
+          },
+          {
+            "item": "90772175",
+            "count": "18"
+          },
+          {
+            "item": "90785769",
+            "count": "18"
+          },
+          {
+            "item": "90564853",
+            "count": "17"
+          },
+          {
+            "item": "91134233",
+            "count": "16"
+          },
+          {
+            "item": "90278844",
+            "count": "16"
+          },
+          {
+            "item": "90464575",
+            "count": "15"
+          },
+          {
+            "item": "90563709",
+            "count": "15"
+          },
+          {
+            "item": "90780268",
+            "count": "15"
+          }
+        ],
+        "smallest": "`",
+        "not_null": "10118",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379586,
+      "name": "Last_Updated_On",
+      "dataTypeName": "calendar_date",
+      "description": "Time/date the record was last edited in the OPT Breakdown and Delay system.",
+      "fieldName": "last_updated_on",
+      "position": 19,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 31729376,
+      "width": 170,
+      "cachedContents": {
+        "largest": "2026-10-15T13:40:26.000",
+        "non_null": "1305118",
+        "null": "1",
+        "top": [
+          {
+            "item": "1900-01-01T00:00:00.000",
+            "count": "658374"
+          },
+          {
+            "item": "2019-04-26T11:49:12.000",
+            "count": "2406"
+          },
+          {
+            "item": "2019-04-26T11:49:11.000",
+            "count": "2262"
+          },
+          {
+            "item": "2000-01-28T00:00:00.000",
+            "count": "46"
+          },
+          {
+            "item": "2000-01-14T00:00:00.000",
+            "count": "45"
+          },
+          {
+            "item": "2000-02-28T00:00:00.000",
+            "count": "33"
+          },
+          {
+            "item": "2000-05-31T00:00:00.000",
+            "count": "32"
+          },
+          {
+            "item": "2000-01-27T00:00:00.000",
+            "count": "30"
+          },
+          {
+            "item": "1999-12-14T00:00:00.000",
+            "count": "30"
+          },
+          {
+            "item": "2000-01-03T00:00:00.000",
+            "count": "29"
+          },
+          {
+            "item": "1999-11-08T00:00:00.000",
+            "count": "29"
+          },
+          {
+            "item": "2000-01-24T00:00:00.000",
+            "count": "28"
+          },
+          {
+            "item": "2000-05-26T00:00:00.000",
+            "count": "28"
+          },
+          {
+            "item": "2000-05-15T00:00:00.000",
+            "count": "28"
+          },
+          {
+            "item": "2000-02-29T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2000-03-01T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2000-05-11T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2000-05-18T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2000-02-03T00:00:00.000",
+            "count": "27"
+          },
+          {
+            "item": "2000-06-12T00:00:00.000",
+            "count": "27"
+          }
+        ],
+        "smallest": "1900-01-01T00:00:00.000",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "view": "date_time",
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379587,
+      "name": "Breakdown_or_Running_Late",
+      "dataTypeName": "text",
+      "description": "Indicator status as reported by the staff employed by the reporting bus vendor. OPT does not edit this field. Designates whether a bus has broken down (and requires another vehicle to be dispatched to finish the route) or is delayed (and may not require another vehicle).",
+      "fieldName": "breakdown_or_running_late",
+      "position": 20,
+      "renderTypeName": "text",
+      "tableColumnId": 31729377,
+      "width": 182,
+      "cachedContents": {
+        "largest": "Running Late",
+        "non_null": "1305119",
+        "null": "0",
+        "top": [
+          {
+            "item": "Running Late",
+            "count": "1143964"
+          },
+          {
+            "item": "Breakdown",
+            "count": "161155"
+          }
+        ],
+        "smallest": "Breakdown",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 253379588,
+      "name": "School_Age_or_PreK",
+      "dataTypeName": "text",
+      "description": "Indicator of whether the route serves the school-age or Pre-K/EI population. These two busing types have very different contract terms. OPT does not perform route planning for Pre-K service and doesn't assign route numbers.",
+      "fieldName": "school_age_or_prek",
+      "position": 21,
+      "renderTypeName": "text",
+      "tableColumnId": 31729378,
+      "width": 171,
+      "cachedContents": {
+        "largest": "School-Age",
+        "non_null": "1305119",
+        "null": "0",
+        "top": [
+          {
+            "item": "School-Age",
+            "count": "1185709"
+          },
+          {
+            "item": "Pre-K",
+            "count": "119410"
+          }
+        ],
+        "smallest": "Pre-K",
+        "not_null": "378449",
+        "count": "1305119",
+        "cardinality": "1305119"
+      },
+      "format": {
+        "align": "left"
+      }
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "metadata": {
+    "rdfSubject": "0",
+    "rdfClass": "",
+    "attachments": [
+      {
+        "filename": "OPT Open Data Descriptions v0.2.docx",
+        "assetId": "0bb6a206-bfc3-484e-9da1-f78be62eb4b8",
+        "name": "OPT Open Data Descriptions v0.2.docx"
+      }
+    ],
+    "custom_fields": {
+      "Update": {
+        "Automation": "Yes",
+        "Date Made Public": "4/11/2016",
+        "Update Frequency": "Daily"
+      },
+      "Dataset Information": {
+        "Agency": "Department of Education (DOE)"
+      }
+    },
+    "rowIdentifier": 253379589,
+    "rowLabel": "Row",
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ],
+    "renderTypeConfig": {
+      "visible": {
+        "table": true
+      }
+    }
+  },
+  "owner": {
+    "id": "5fuc-pqz2",
+    "displayName": "NYC OpenData",
+    "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName": "NYC OpenData",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "5fuc-pqz2",
+    "displayName": "NYC OpenData",
+    "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName": "NYC OpenData",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "tags": [
+    "bus",
+    "schools",
+    "transportation",
+    "doe"
+  ],
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

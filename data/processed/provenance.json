@@ -1,0 +1,89 @@
+{
+  "sources": {
+    "housing": {
+      "name": "DOB NOW: Build \u2013 Approved Permits",
+      "dataset_id": "rbx6-tga4",
+      "full_source_rows": 1015833,
+      "source_columns": 46,
+      "extracted_rows": 461557,
+      "extracted_columns": 14,
+      "start": "2022-01-01",
+      "end_exclusive": "2025-01-01",
+      "retrieved_utc": "2026-10-17T12:08:00.767368+00:00",
+      "rows_updated_at": 1792176246,
+      "where": "issued_date >= '2022-01-01T00:00:00' AND issued_date < '2025-01-01T00:00:00'",
+      "fields": [
+        "job_filing_number",
+        "work_permit",
+        "sequence_number",
+        "borough",
+        "issued_date",
+        "approved_date",
+        "work_type",
+        "permit_status",
+        "zip_code",
+        "bin",
+        "estimated_job_costs",
+        "latitude",
+        "longitude",
+        "filing_reason"
+      ],
+      "sha256": "9843c79a9197b1cd7898cefb11b7743b29b3aa2b39dd4630d2dd413447789dcd",
+      "api": "https://data.cityofnewyork.us/resource/rbx6-tga4.json",
+      "download": "https://data.cityofnewyork.us/api/views/rbx6-tga4/rows.csv?accessType=DOWNLOAD"
+    },
+    "transport": {
+      "name": "Bus Breakdown and Delays",
+      "dataset_id": "ez4e-fazm",
+      "full_source_rows": 1305119,
+      "source_columns": 21,
+      "extracted_rows": 262875,
+      "extracted_columns": 12,
+      "start": "2022-01-01",
+      "end_exclusive": "2025-01-01",
+      "retrieved_utc": "2026-10-17T12:09:25.549130+00:00",
+      "rows_updated_at": 1792233041,
+      "where": "occurred_on >= '2022-01-01T00:00:00' AND occurred_on < '2025-01-01T00:00:00'",
+      "fields": [
+        "busbreakdown_id",
+        "occurred_on",
+        "created_on",
+        "last_updated_on",
+        "boro",
+        "reason",
+        "run_type",
+        "how_long_delayed",
+        "number_of_students_on_the_bus",
+        "breakdown_or_running_late",
+        "school_year",
+        "route_number"
+      ],
+      "sha256": "bb85ce34b3084f13b70d34e38f09de05f9683388f43154d6eab59343e751d33d",
+      "api": "https://data.cityofnewyork.us/resource/ez4e-fazm.json",
+      "download": "https://data.cityofnewyork.us/api/views/ez4e-fazm/rows.csv?accessType=DOWNLOAD"
+    }
+  },
+  "cleaning": {
+    "housing": {
+      "input_rows": 461557,
+      "exact_duplicates_removed": 87,
+      "invalid_geography_or_date_removed": 0,
+      "missing_identifier_removed": 60,
+      "placeholder_identifiers_removed": 1,
+      "conflicting_key_rows_quarantined": 16,
+      "negative_costs": 0,
+      "cost_iqr_outliers_retained": 66900,
+      "output_rows": 461393
+    },
+    "transport": {
+      "input_rows": 262875,
+      "exact_duplicates_removed": 0,
+      "invalid_geography_or_date_removed": 21013,
+      "missing_identifier_removed": 0,
+      "duplicate_ids_removed": 0,
+      "students_invalid_or_missing": 95,
+      "delay_unusable": 13928,
+      "output_rows": 241862
+    }
+  }
+}

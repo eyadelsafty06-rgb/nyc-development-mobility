@@ -1,0 +1,5 @@
+,busbreakdown_id,occurred_on,created_on,last_updated_on,boro,reason,run_type,how_long_delayed,number_of_students_on_the_bus,breakdown_or_running_late,school_year,route_number
+count,262875,262875,262875,262875,262866,262875,262868,247822,262875,262875,262875,262875
+unique,262875,111390,133449,23008,12,10,8,5,160,2,4,13040
+top,1691257,2024-09-30T13:00:00.000,2023-12-18T07:15:00.000,1900-01-01T00:00:00.000,Brooklyn,Heavy Traffic,Special Ed AM Run,16-30 Min,0,Running Late,2022-2023,2
+freq,1,71,13,239856,67587,163503,165292,80581,170343,247822,99421,382

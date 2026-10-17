@@ -1,0 +1,15 @@
+,dtype,missing_n,missing_pct,unique_n
+job_filing_number,string,54,0.011699530068875568,287752
+work_permit,string,54,0.011699530068875568,299554
+sequence_number,string,8,0.0017332637139074914,22
+borough,string,0,0.0,10
+issued_date,string,0,0.0,988
+approved_date,string,0,0.0,2273
+work_type,string,0,0.0,21
+permit_status,string,0,0.0,2
+zip_code,string,1064,0.23052407394969637,222
+bin,string,0,0.0,83414
+estimated_job_costs,string,0,0.0,44455
+latitude,string,2557,0.553994414557682,69938
+longitude,string,2557,0.553994414557682,69163
+filing_reason,string,0,0.0,4

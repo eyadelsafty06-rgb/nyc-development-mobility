@@ -1,0 +1,32 @@
+{
+  "name": "DOB NOW: Build \u2013 Approved Permits",
+  "dataset_id": "rbx6-tga4",
+  "full_source_rows": 1015833,
+  "source_columns": 46,
+  "extracted_rows": 461557,
+  "extracted_columns": 14,
+  "start": "2022-01-01",
+  "end_exclusive": "2025-01-01",
+  "retrieved_utc": "2026-10-17T12:08:00.767368+00:00",
+  "rows_updated_at": 1792176246,
+  "where": "issued_date >= '2022-01-01T00:00:00' AND issued_date < '2025-01-01T00:00:00'",
+  "fields": [
+    "job_filing_number",
+    "work_permit",
+    "sequence_number",
+    "borough",
+    "issued_date",
+    "approved_date",
+    "work_type",
+    "permit_status",
+    "zip_code",
+    "bin",
+    "estimated_job_costs",
+    "latitude",
+    "longitude",
+    "filing_reason"
+  ],
+  "sha256": "9843c79a9197b1cd7898cefb11b7743b29b3aa2b39dd4630d2dd413447789dcd",
+  "api": "https://data.cityofnewyork.us/resource/rbx6-tga4.json",
+  "download": "https://data.cityofnewyork.us/api/views/rbx6-tga4/rows.csv?accessType=DOWNLOAD"
+}

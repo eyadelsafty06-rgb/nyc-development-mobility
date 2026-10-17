@@ -1,0 +1,13 @@
+,dtype,missing_n,missing_pct,unique_n
+busbreakdown_id,string,0,0.0,262875
+occurred_on,string,0,0.0,111390
+created_on,string,0,0.0,133449
+last_updated_on,string,0,0.0,23008
+boro,string,9,0.0034236804564907273,12
+reason,string,0,0.0,10
+run_type,string,7,0.002662862577270566,8
+how_long_delayed,string,15053,5.726295767950547,5
+number_of_students_on_the_bus,string,0,0.0,160
+breakdown_or_running_late,string,0,0.0,2
+school_year,string,0,0.0,4
+route_number,string,0,0.0,13040

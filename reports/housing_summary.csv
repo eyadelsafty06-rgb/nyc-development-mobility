@@ -1,0 +1,5 @@
+,job_filing_number,work_permit,sequence_number,borough,issued_date,approved_date,work_type,permit_status,zip_code,bin,estimated_job_costs,latitude,longitude,filing_reason
+count,461503,461503,461549,461557,461557,461557,461557,461557,460493,461557,461557,459000,459000,461557
+unique,287752,299554,22,10,988,2273,21,2,222,83414,44455,69938,69163,4
+top,Q00476684-I1,X00598191-I1-GC-CX,1,MANHATTAN,2022-11-09T00:00:00.000,2022-05-31T00:00:00.000,General Construction,Signed-off,10022,1014387,1000,40.751614,-73.992121,Initial Permit
+freq,68,36,320035,164353,1003,883,114754,333534,10374,561,35188,561,561,316603
